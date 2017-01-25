@@ -4,7 +4,10 @@ namespace EmployeeVMTut.Models
 {
     public class JobTag
     {
-        public JobTag() { }
+        public JobTag()
+        {
+            this.JobPost = new HashSet<JobPost>();
+        }
         public int ID { get; set; }
         public string Tag { get; set; }
         
