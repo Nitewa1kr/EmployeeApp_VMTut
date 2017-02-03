@@ -16,7 +16,7 @@ namespace EmployeeVMTut
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Employees", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "JobPosts", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
